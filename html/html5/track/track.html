@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>&lt;track&gt;</title>
+	<meta charset="utf-8" lang="en">
+	<style>
+		body{
+			background: lightblue;
+			text-align: center;
+			}
+	</style>
+</head>
+<body>
+
+	<h1>The &lt;track&gt; tag</h1>
+
+	<p>The &lt;track&gt; tag specifies text tracks for &lt;audio&gt; or &lt;video&gt; elements.</p>
+		<p>Tracks are formatted in WebVTT format (.vtt files).</p>
+
+		<video width="210" height="240" controls>
+		  <source src="cica.mp4" type="video/mp4">
+		  <source src="cica.ogg" type="video/ogg">
+		  <track src="cica.vtt" kind="subtitles" srclang="en" label="English">
+		  <track src="titles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+		</video>
+
+
+
+</body>
+</html>

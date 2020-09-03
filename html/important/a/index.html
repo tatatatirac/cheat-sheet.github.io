@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>&lt;a&gt;</title>
+        <style type="text/css">
+
+        h1{	text-align: center;
+    		font-size: 3rem;
+    		border-bottom: 2px solid pink;
+    		border-right: 2px solid pink ;
+   			font-family: Times New Roman;
+    		width: 400px;
+    		box-shadow: 4px 4px 4px purple;}
+        
+        a#submit{ position:absolute; top:0; left:0; height:100%; width:70px; }
+        #page p{ display:none }     
+        #page:target p{display:inline}
+        #page:target input[type="submit"]{display:none}
+        #page:target input{display:inline-block;border:0px}
+        </style>
+    </head>
+    <body>
+    		<h1 class="title">EZ Cheat Sheets</h1><br>
+			<h2 class="sub">Generate HTML</h2><br>
+
+        <div id="page">
+            <form action="" method="post">
+            <p>&lt;a href="</p>
+            <input type="text" placeholder="insert or copy link">
+            <p>"&gt;</p>
+             <input type="text" placeholder="name of link">
+            <p>&lt;/a&gt;</p>
+            <div style="position:relative">
+                <input type="submit">
+                <a id="submit" href="#page"></a> 
+
+            </div>
+            </form>
+        </div>
+
+
+    </body>
+</html>

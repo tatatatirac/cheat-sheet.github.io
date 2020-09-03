@@ -1,0 +1,40 @@
+t<!DOCTYPE html>
+<html>
+<head>
+	<title>&lt;a&gt; TAG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+
+
+      <p>Click the following button generate the anchor tag: </p>
+      
+      <form>
+         <input class="button" type = "button" value = "Click Me!" onclick = "getValue()" />
+
+      </form>
+
+
+      <div>
+         	<script type = "text/javascript">
+
+                  function getValue() {
+                     var retVal = prompt("Enter hyperlink path : ");
+                     var retVal1 = prompt("Enter link name : ");
+                     document.write( 
+                     	"Copy and paste in your HTML page:" + "<br><br><br><br>"+ "&lt;a href= " +'"'+ retVal + '">' + retVal1 + '&lt;/a>');
+                     document.head.insertAdjacentHTML("beforeend", `<style>body{background:#0099ff; color:black;font-size:2rem;text-align:center;font-family:arial;}</style>`);
+                     document.write("<br><br><br><br><br>");
+                     
+                     document.write('<a href="javascript:history.back()">Go Back</a>');
+                  }
+                     
+            </script>
+  </div>
+
+
+</body>
+</html>

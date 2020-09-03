@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>&lt;canvas&gt;</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>&lt;canvas&gt;element using for drawing grafics via scripting usually with <a href="../../../CheatSheet/js/index.html">Java script</a></h1>
+
+	<p>This is an example drawing lines by coordinates using <a href="../../../CheatSheet/js/index.html">Java script</a>  </p>
+	
+
+	<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+	</canvas>
+	<br><br><br>
+
+	<img src="img14.png" width="400" height="200">
+	<img src="img15.png" width="400" height="200">
+
+	<p>You can also draw circle, letters, color it or mutlicolor , etc.</p>
+
+	<script>
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d");
+		ctx.moveTo(100, 0);
+		ctx.lineTo(50, 100);
+		ctx.lineTo(150, 25);
+		ctx.lineTo(50, 25);
+		ctx.lineTo(150, 100);
+		ctx.lineTo(100, 0);
+		ctx.stroke();
+	</script>
+
+</body>
+</html>

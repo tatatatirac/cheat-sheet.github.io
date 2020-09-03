@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>&lt;picture&gt;</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+		body{
+		  background: lightblue;
+		  text-align: center;
+		  font-size:2rem;
+		}
+		ul li {
+			text-align: left;
+		}
+
+		footer{
+			border: 2px solid purple;
+		}
+
+		#progress {
+		  width: 100%;
+		  background-color: white;
+		}
+
+		#bar {
+		  width: 1%;
+		  height: 30px;
+		  background-color: purple;
+		}
+
+
+		</style>
+		</head>
+<body>
+
+
+	<h1>The &lt;progress&gt; tag represents the completion progress of a task.</h1>
+
+
+	<p>The &lt;progress&gt; element </p>
+
+	<p>Use the &lt;progress&gt; tag in conjunction with JavaScript to display the progress of a task.</p>
+
+
+		<div id="progress">
+  			<div id="bar"></div>
+		</div>
+
+		<br>
+			<button onclick="move()">Click To Start Loading </button> 
+
+			<script>
+			var i = 0;
+			function move() {
+			  if (i == 0) {
+			    i = 1;
+			    var elem = document.getElementById("bar");
+			    var width = 1;
+			    var id = setInterval(frame, 80);
+			    function frame() {
+			      if (width >= 100) {
+			        clearInterval(id);
+			        i = 0;
+			      } else {
+			        width++;
+			        elem.style.width = width + "%";
+			      }
+			    }
+			  }
+			}
+			</script>
+
+
+
+
+	<br><br><br>
+
+	<figure>
+  			<img src="img31.png" alt="in CSS" style="width:50%">
+ 		 	<figcaption>Fig.1 - in CSS</figcaption>
+	</figure>
+
+	<figure>
+ 		 	<img src="img32.png" alt="html & JavaScript" style="width:50%">
+  			<figcaption>Fig.2 - in Html with JavaScript ;</figcaption>
+	</figure>
+
+
+	
+</body>
+
+</html>
+
+

@@ -1,0 +1,43 @@
+body{
+
+	background-color: #0099ff;
+
+	text-align: center;
+}
+
+p {
+	font-size: 2rem;
+	color: black;
+}
+
+
+ul li{
+ 
+  text-decoration-line: none;
+  border:2px solid lightgreen;
+  padding: 15px;
+  float: left;
+  width: 6rem;
+  text-align: center;
+  display: inline-block;
+  background-color: lightblue;
+  margin:20px;
+  
+}
+
+
+a{
+  text-decoration-line: none;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
