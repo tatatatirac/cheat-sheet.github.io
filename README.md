@@ -1,4 +1,4 @@
-<-- https://tatatatirac.github.io/cheat-sheet.github.io/-->
+<!-- https://tatatatirac.github.io/cheat-sheet.github.io/-->
 <h1>html css js swift etc.</h1>
 <h1>Cheatsheet</h1>
 
