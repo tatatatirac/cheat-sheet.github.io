@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+
+</head>
+<body>
+
+	
+	<h1 class="title"><a href="../index.html">EZ Cheat Sheets</a></h1><br>
+        <ul id = "shor">
+          <li><a  href="../index.html">Home</a></li>
+          <br>
+          <li><a  href="../html.html">HTML</li>
+          <br>
+          <li><a href="">CSS</a> </li>
+          <br>
+          <li><a  href="../js.html">Java script</a></li>
+          <br>
+          <li><a  href="../aboutEZ.html">AboutEZ</a></li>
+          
+        </ul>
+      <br>
+      <br>
+
+      <h1>CSS <br>(Cascading Style Sheet)</h1>
+
+
+	<p class="css">
+		This is CSS:<br><br>
+		<a class="a1" href="./css/selector/selectors.html">Selector</a>{       
+	<a class="a2" href="property.html">property</a>:<a class="a3" href="value.html">value</a>}<br><br>
+	AND this is pretty much it.
+	<br><br>
+	(click selector , property or value)
+	</p>
+	
+
+	<h2>To insert CSS We have three ways:</h2>
+		<ul>
+			<li>Internal CSS</li>
+			<li>External CSS</li>
+			<li>Inline CSS</li>
+		</ul>
+
+	<h1>Internal CSS</h1>		
+
+	<h2>Style sheet you can place into &lt;style&gt; into &lt;head&gt; section</h2>
+
+	<aside style="border:black solid 2px">
+
+		<h2>HTML <br> (index.html)</h2><br>
+				
+				<p>&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+					
+				&lt;head&gt;<br>
+
+				&lt;title&gt;Internal CSS&lt;/title&gt;<br>
+
+				<mark>&lt;style type="text/css"&gt;<br>
+
+				body{<br>
+					background:grey;<br>
+						}<br>
+
+				h1{<br>
+						color:red;<br>
+					}<br>
+
+					p{<br>
+							color:blue;<br>
+						}<br>
+					&lt;/style&gt;</mark> <br>
+
+			      &lt;/head&gt;<br>
+			  &lt;body&gt;<br>
+			    &lt;h1&gt;Internal CSS&lt;/h1&gt;<br>
+
+				&lt;p&gt;Color of background is GREY, heading is RED and paragraph is BLUE&lt;/p&gt;<br>
+			 &lt;/body&gt;<br>
+			&lt;/html&gt;
+	</p><br><br>
+	</aside>
+	<br>
+	<iframe src="./css/internal.html" width="50%" height="645" style="border:black solid 2px;" ></iframe>
+
+	<br>
+
+	<h1>External CSS</h1>		
+
+	<h2>Style sheet you can reference to the external style sheet file inside the &lt;link&gt; element, inside the &lt;head&gt; section.</h2>
+
+	<aside style="border: 2px solid black;">
+
+		<h2>HTML<br> (index.html)</h2><br>
+		
+		<p>
+			&lt;!DOCTYPE html &gt;<br>
+			&lt;html&gt;<br>
+			&lt;head&gt;<br>
+			&lt;title&gt;External CSS&lt;/title&gt;<br>
+			<mark>&lt;link rel="stylesheet" type="text/css" href="style_external.css"&gt;</mark><br>
+			&lt;/head&gt;<br>
+			&lt;body&gt;<br>
+			&lt;h1&gt;External CSS&lt;/h1&gt;<br>
+
+			&lt;p&gt;Color of background is GREY, heading is RED and paragraph is BLUE&lt;/p&gt;<br>
+
+			&lt;/body&gt;<br>
+			&lt;/html&gt;
+		</p>
+	</aside>
+	<aside style="border: 2px solid black;">
+
+		<h2>CSS <br>(style_external.css)</h2><br>
+			<p>body{<br>
+			background:grey;<br>
+			}<br>
+			<br>
+			h1{<br>
+				color:red;<br>
+			}<br>
+			<br>
+			p{<br>
+				color:blue;<br>
+			}</p><br><br>
+
+	</aside><br>
+
+
+	<iframe src="./css/external.html" width="30%" height="445" style="border: 2px solid black;" ></iframe>
+
+	<h1>Inline CSS</h1>		
+
+	<h2>And style sheet you can put inside the any element, inside/and the &lt;body&gt; section.</h2>
+
+	<aside style="border: 2px solid black;">
+
+		<h2>HTML<br> (index.html)</h2><br>
+		
+		<p>&lt;!DOCTYPE html&gt;<br>
+			&lt;html&gt;<br>
+			&lt;head&gt;<br>
+			&lt;title&gt;Inline CSS&lt;/title&gt;<br>
+			&lt;/head&gt;<br>
+			<mark>&lt;body style="background: grey;"&gt;</mark><br>
+			<mark>&lt;h1 style="color:red; "&gt;</mark>Inline CSS&lt;/h1&gt;<br>
+
+			<mark>&lt;p style="color: blue;"&gt;</mark>Color of background is GREY, heading is RED and paragraph is BLUE&lt;/p&gt;<br>
+
+			&lt;/body&gt;<br>
+			&lt;/html&gt;<br>
+		</p>
+	</aside><br>
+	
+
+
+	<iframe src="./css/inline.html" width="50%" height="410" style="border: 2px solid black;" ></iframe><br><br>
+
+	<h2>Internal, External or Inline CSS you get identical page.</h2>
+
+	
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+body {
+    
+    background-image: url(html.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 300px;
+    background-color: lightgrey;
+
+
+}
+
+
+    span{
+      color:white;
+      font-weight: 1rem;
+    }
+
+
+p{
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(102, 0, 204);
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h4{
+    text-align: right;
+    font-size:50px;
+   
+}
+
+.sub{
+    text-align: left;
+    font-family: fantasy;
+    font-size: 2rem;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink ;
+    font-family: fantasy;
+    width: 400px;
+    box-shadow: 4px 4px 4px purple;
+}
+
+a{
+    display: block;
+    text-align: center;
+    color: black;
+
+}
+
+a:hover{
+
+    color: red; 
+
+}
+
+a:link {
+    text-decoration:none;
+
+    
+}
+
+.a1{
+
+    color:magenta;
+
+}
+
+.a2{
+    color:cyan;
+}
+
+#shor{
+    
+    text-align: right;
+    display: inline-flex;
+    font-size: 2rem;
+    list-style: none;
+    border-bottom: 2px solid;
+    
+   
+}
+
+li{
+    margin:1rem;
+    margin-bottom: 0.2rem;
+    font-family: fantasy;
+}
+
+.left{
+    
+      color: white;
+      background: black;
+      width: 30%;
+      padding: 20px;
+      padding-right: 5px;
+      margin: 15px;
+      float: left;
+      font-size: 1rem;
+
+}
+
+.right{
+    font-size:3rem;
+      color: white;
+      background: black;
+      width: 30%;
+      padding: 20px;
+      padding-right: 5px;
+      margin: 15px;
+      float: right;
+}
+
+.leftA{
+    text-align: left;
+
+}
+
+.rightA{
+    text-align: right;
+}
+
+.htmlP{
+    font-size: 2rem;
+}
+
+aside{
+    height: 700px;
+}
+
+

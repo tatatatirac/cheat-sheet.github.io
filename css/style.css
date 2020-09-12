@@ -1,0 +1,37 @@
+body{
+	background-color: lightgrey;
+	margin-left: 60px;
+}
+
+.home{
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  justify-content:center;
+  padding: 4rem;
+
+}
+a{
+	margin: 80px;
+}
+
+h1{
+	text-align: center;
+	font-size: 3rem;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink ;
+	/*border-right-angle: 45%;*/
+	font-family: fantasy;
+	width: 400px;
+	box-shadow: 4px 4px 4px purple;
+
+}
+
+h2{
+	text-align: left;
+	font-family: fantasy;
+
+}
+
+
