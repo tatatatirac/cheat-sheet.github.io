@@ -12,11 +12,15 @@ body {
 }
 
 .css{
+
 	font-size: 2rem;
 	background: black;
 	color: silver;
 	border: 5px dashed white;
-	padding: 5%;
+	align-self: center;
+	padding:5%;
+	margin-right: 25%;
+	margin-left: 25%;
 	text-align: left;
 
 }
@@ -41,20 +45,22 @@ body {
 
 .a1{
 	color:magenta;
-	text-decoration: blink;
+	
 }
 
 .a1:hover{
 	color:red;
+	text-decoration: none;
 }
 .a2{
 	color: cyan;
-	padding-left: 20%;
+	padding-left: 5%;
 	text-decoration: none;
 	
 }
 .a2:hover{
 	color:red;
+
 }
 
 .a3{
