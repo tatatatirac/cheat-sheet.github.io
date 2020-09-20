@@ -69,7 +69,7 @@ body {
 }
 
 .a3:hover{
-	color:red;
+	color:orange;
 }
 
 
@@ -152,7 +152,7 @@ aside{
 	  padding-right: 5px;
 	  margin: 15px;
 	  float: left;
-	  background-color: silver;
+	  background-color: rgb(128, 128, 128);
 	  height: 500px;
 	}
 
