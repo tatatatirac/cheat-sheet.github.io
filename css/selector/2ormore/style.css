@@ -106,20 +106,23 @@ li{
       width: 30%;
       padding: 20px;
       padding-right: 5px;
-      margin: 15px;
+      padding-bottom: 15%;
+      margin: 1%;
       float: left;
-/*       font-size: 0.5rem; */
+      
+
 
 }
 
 .right{
-    font-size:3rem;
+    font-size:2rem;
       color: white;
       background: black;
       width: 30%;
       padding: 20px;
       padding-right: 5px;
-      margin: 15px;
+      padding-bottom: 15%;
+      margin: 5px;
       float: right;
 }
 
@@ -133,11 +136,11 @@ li{
 }
 
 .htmlP{
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 aside{
-    height: 750px;
+    height: 650px;
 }
 
 
