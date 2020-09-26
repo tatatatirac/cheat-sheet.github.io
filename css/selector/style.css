@@ -194,7 +194,7 @@ div {
     background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
 }
 
-/*.purple */{
+.purple {
     background: #A88BEB; /* Old browsers */
     background: -moz-linear-gradient(top, #A88BEB 0%, #F1A7F1 44%, #F8CEEC 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A88BEB), color-stop(44%,#F1A7F1), color-stop(100%,#F8CEEC)); /* Chrome,Safari4+ */
